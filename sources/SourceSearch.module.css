@@ -1,0 +1,118 @@
+.Outer {
+  width: 100%;
+  padding: 0.25rem 0;
+  background-color: var(--color-contrast);
+}
+
+.Container,
+.ContainerFocused {
+  width: 100%;
+  height: 1.75rem;
+  border: 2px solid var(--background-color-contrast-2);
+  overflow: hidden;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.ContainerFocused {
+  border-color: var(--color-brand);
+}
+
+.InputAndResults {
+  flex: 1 1 auto;
+  padding: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color-contrast-2);
+}
+
+.SearchIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0.25rem;
+  flex: 0 0 1.75rem;
+  display: inline-block;
+  color: var(--color-dim);
+}
+
+.Input {
+  width: 100%;
+  height: 1.75rem;
+  padding: 0 0.5ch;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: var(--background-color-contrast-2);
+  color: var(--color-default);
+
+  font-family: var(--font-family-monospace);
+  font-size: var(--font-size-regular);
+}
+.Input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.Results {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5ch;
+  white-space: nowrap;
+  margin-left: 0.5ch;
+  padding: 0 0.5ch;
+  font-size: var(--font-size-small);
+  color: var(--color-dim);
+}
+
+.ResultsIconButton {
+  font-family: var(--font-family-monospace);
+  font-size: var(--font-size-regular);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--color-dim);
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  outline: none;
+}
+.ResultsIconButton:focus {
+  border-color: var(--color-brand);
+}
+.ResultsIconButton:hover:not(.ResultsIconButton:disabled):not(.ResultsIconButtonActive) {
+  color: var(--color-default);
+}
+.ResultsIconButton:disabled {
+  color: var(--color-dimmer);
+}
+.ResultsIconButtonActive {
+  color: var(--background-color-primary-button);
+}
+
+.ResultsIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  color: currentColor;
+}
+
+.Modifiers {
+  flex: 0 0 auto;
+  padding: 0 1ch;
+  gap: 1ch;
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color-contrast-2);
+  border-left: 1px solid var(--background-color-default);
+  color: var(--color-dim);
+  user-select: none;
+}
+
+.WholeWordText {
+  text-decoration: underline;
+}
