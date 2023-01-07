@@ -1,0 +1,18 @@
+.ColorBadge,
+.ColorBadgeClear,
+.UnicornBadge {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.75rem;
+}
+.ColorBadge {
+  background-color: var(--badge-color);
+}
+.ColorBadgeClear {
+  border: 0.25rem solid var(--background-color-contrast-5);
+}
+.UnicornBadge {
+  background-image: url(../../public/unicorn.svg) !important;
+  background-size: auto 100%;
+}

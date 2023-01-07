@@ -1,0 +1,8 @@
+.Wrapper {
+  white-space: pre;
+  opacity: 0.5;
+  pointer-events: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--font-family-monospace);
+}
