@@ -13,27 +13,24 @@
     "@lezer/highlight_replay_next": "npm:@lezer/highlight@1.1.1",
     "@replayio/protocol": "^0.32.3",
     "date-fns": "^2.28.0",
-    "design": "workspace:*",
+    
     "idb": "^7.1.1",
     "js-tokens": "^8.0.0",
     "lodash": "^4.17.21",
     "next": "^12.1.6",
     "pretty-ms": "^7.0.1",
-    "protocol": "workspace:*",
-    "react": "0.0.0-experimental-e7d0053e6-20220325",
-    "react-dom": "0.0.0-experimental-e7d0053e6-20220325",
-    "react-virtualized-auto-sizer": "^1.0.7",
-    "shared": "workspace:*"
+    
+    "react": "latest",
+    "react-dom": "latest",
+    "react-virtualized-auto-sizer": "^1.0.7"
   },
   "devDependencies": {
-    "@playwright/test": "^1.23.1",
-    "@testing-library/jest-dom": "^5.16.3",
+
     "@testing-library/react": "^13.2.0",
-    "jest": "^28.0.2",
-    "jest-environment-jsdom": "^28.0.2",
+
     "next-transpile-modules": "^9.0.0",
     "node-fetch": "^2.0.0",
-    "playwright-chromium": "^1.23.1",
+    
     "typescript": "^4.6.3"
   },
   "scripts": {

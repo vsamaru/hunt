@@ -16,9 +16,7 @@
     "jsx": "preserve",
     "baseUrl": "../",
     "paths": {
-      "design/*": ["../design/*"],
-      "protocol/*": ["../protocol/*"],
-      "shared/*": ["../shared/*"],
+
     }
   },
   "include": [
